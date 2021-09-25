@@ -8,10 +8,14 @@ print(student_scores)
 #Write your code below this row 👇
 maximo_score = 0
 for maximo in student_scores:
-  maximo_score 
+  if maximo > maximo_score:
+    maximo_score = maximo 
 
 minimo_score = 0
 for minimo in student_scores:
-  minimo_score 
+  if minimo < minimo_score:
+    minimo_score = minimo
+
+print(f("The highest score in the class is: {maximo}, but also your lowest score is: {minimo}") 
 
 
