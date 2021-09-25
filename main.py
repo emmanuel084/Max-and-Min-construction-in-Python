@@ -16,6 +16,4 @@ for minimo in student_scores:
   if minimo < minimo_score:
     minimo_score = minimo
 
-print(f("The highest score in the class is: {maximo}, but also your lowest score is: {minimo}") 
-
-
+print(f"The highest score in the class is: {maximo}, but also your lowest score is: {minimo}") 
